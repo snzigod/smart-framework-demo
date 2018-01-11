@@ -1,4 +1,4 @@
-package com.sn.smart.order.entity;
+package com.sn.smart.demo.entity;
 
 public class Demo {
 

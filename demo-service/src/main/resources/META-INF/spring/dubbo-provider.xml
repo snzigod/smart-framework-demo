@@ -28,6 +28,6 @@
 	<dubbo:protocol name="dubbo" port="${dubbo.dubbo.port}" />
 
 	<!-- 应用服务 -->
-	<dubbo:annotation package="com.sn.smart.order.service" />
+	<dubbo:annotation package="com.sn.smart.demo.service" />
 
 </beans>

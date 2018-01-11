@@ -1,4 +1,4 @@
-package com.sn.smart.order;
+package com.sn.smart.demo;
 
 import com.alibaba.dubbo.container.Main;
 

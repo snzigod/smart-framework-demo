@@ -14,13 +14,12 @@
 	<context:property-placeholder location="classpath:application.config.properties"
 		file-encoding="UTF-8" />
 
-
 	<!-- 自动搜索@Component , @Service 等标注的类 -->
-	<context:component-scan base-package="com.sn.smart.order"
+	<context:component-scan base-package="com.sn.smart.demo"
 		annotation-config="true" />
 
 	<!-- enable autowire -->
-	<context:annotation-config />
+	<!-- <context:annotation-config /> -->
 
 	<bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
 		init-method="init" destroy-method="close">
@@ -68,7 +67,7 @@
 	</bean>
 
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-		<property name="basePackage" value="com.sn.smart.order.dao" />
+		<property name="basePackage" value="com.sn.smart.demo.dao" />
 	</bean>
 
 	<bean id="transactionManager"
